@@ -12,7 +12,7 @@ main = print "What's your name?" >> getLine >>= \n -> print "Hello, " ++ n ++ "!
 
 into
 
-```haskell=
+```haskell
 main = do
   print "What's your name?"
   n <- getLine
@@ -21,7 +21,7 @@ main = do
 
 Purists claim that do-notation should be avoided. See also [Do Notation considered harmful](https://wiki.haskell.org/Do_notation_considered_harmful).
 
-I don't agree. Imperative style is for the most programmers more understandable and combines the benefits of safe and efficient handling for effectful tasks tasks with a familiar programming style. While when going fully FP you will perform a complete paradigm shift.
+I don't agree. Imperative style is for the most programmers more understandable and combines the benefits of safe and efficient handling for effectful tasks with a familiar programming style. While when going fully FP you will perform a complete paradigm shift.
 
 ## Use Cases
 
